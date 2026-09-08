@@ -101,6 +101,28 @@ Scope: ordinary technical subjects are exempt ("the parser rejects", "the runtim
 
 Rewrite: name the person or state the property. "The diff mixes three unrelated changes; split it."
 
+## User instructions phrased as behavior descriptions
+
+Shape: shortcut hints or instructions that make a key, button, or control the subject: "Enter opens it", "Esc returns to it", "Ctrl+C twice quits".
+
+The tell: the reader needs an action, but the text describes what the control does.
+
+Rewrite: use an imperative in prose or a compact "control to action" phrase in shortcut hints. Preserve modifiers such as "twice" and any context needed to identify the target.
+
+Before:
+> Enter opens it, Esc returns to it, Ctrl+C twice quits.
+
+After:
+> Enter to open, Esc to return, Ctrl+C twice to quit.
+
+Before:
+> The Retry button runs the failed job again.
+
+After:
+> Click Retry to run the failed job again.
+
+Scope: apply this when telling the reader how to act. Inanimate subjects are normal in descriptions of behavior: "the parser rejects malformed input", "the cache expires after five minutes", "Ctrl+C sends SIGINT". Keep those. Treat this as an editing preference; it does not establish whether an author used an LLM.
+
 ## Coinage tics
 
 Shape: "-adjacent", "-shaped", "-flavored" suffixed onto abstractions ("a consensus-shaped problem", "advocacy-adjacent").

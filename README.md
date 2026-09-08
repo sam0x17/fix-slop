@@ -8,6 +8,7 @@ Heavily modified fork of [stop-slop](https://github.com/hardikpandya/stop-slop) 
 - Em dashes are banned. `->` replaces unicode arrows outside code.
 - The construction catalog targets the patterns that actually mark text as generated: negation-contrasts ("that's not X, it's Y"), sycophancy openers ("You're absolutely right!"), fake candor ("let me be straight with you"), praise inflation ("an unusually disciplined implementation"), the load-bearing/seams metaphor kit, mic-drop closers, bold-label bullet formalism.
 - Model-specific tic lists for Opus-era and Fable-era Claude, with a documented path to regenerate them empirically.
+- UI instructions use direct actions: "Enter to open", "Click Retry to run the job again". Ordinary technical subjects such as "the parser rejects invalid input" are fine.
 
 ## Layout
 
@@ -30,6 +31,7 @@ ln -s ~/workspace/fix-slop ~/.claude/skills/fix-slop
 - [slop-forensics](https://github.com/sam-paech/slop-forensics): cross-model lexical slop, from the essays-domain slop lists; also the methodology for regenerating per-model lists (its published data has no Opus/Fable profiles as of Aug 2026)
 - [jola.dev: How to stop Claude from saying "load-bearing"](https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing): the load-bearing/seams/honest-takes catalog
 - Direct observation of Fable 5 output, including the session in which this skill was written
+- tautologer (@tautologer), screenshot of a post on shortcut hints: "Enter to open" in place of "Enter opens it"
 
 ## License
 

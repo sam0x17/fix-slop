@@ -3,7 +3,7 @@ name: fix-slop
 description: Strip LLM writing tells from technical prose (PR comments, reviews, design docs, commit messages, chat replies). Use when drafting or editing anything a human will read as your own writing.
 metadata:
   trigger: Drafting or editing technical prose; "make this not look AI-generated"; reviewing text before posting to GitHub, Slack, or a mailing list
-  sources: stop-slop (Hardik Pandya, MIT), slop-forensics (Sam Paech), jola.dev, session-observed Opus/Fable tics
+  sources: stop-slop (Hardik Pandya, MIT), slop-forensics (Sam Paech), jola.dev, session-observed Opus/Fable tics, tautologer shortcut-hint example
 ---
 
 # Fix Slop
@@ -46,6 +46,7 @@ Judgment required. Full catalog with before/after pairs in [references/construct
 - Vague amplifiers: "significantly", "dramatically", "massively" with no number attached. Give the number or drop the claim.
 - Coinage tics: "X-adjacent", "Y-shaped", "Z-flavored". Name the actual relationship.
 - Anthropomorphized rhetoric: "the numbers tell a story", "this code wants to be a library". Fine in speech, slop in writing. (Ordinary technical subjects are exempt: "the function returns", "the parser rejects".)
+- User instructions phrased as descriptions of keys or buttons: "Enter opens it", "the Retry button runs the job again". Say what to do: "Enter to open", "Click Retry to run the job again". Keep ordinary descriptions of system behavior. See [the examples and scope](references/constructions.md#user-instructions-phrased-as-behavior-descriptions).
 - Summary pivots: "So:", "In short,", "Bottom line:", "The upshot:". If the paragraph needs a summary, the paragraph is too long.
 - Both-sides reflex: a "That said," / "To be fair," appended to every judgment. Keep one only when the counterpoint changes what the reader should do.
 
