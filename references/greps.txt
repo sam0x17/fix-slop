@@ -1,0 +1,74 @@
+—
+–
+→|⇒|⇐|←|≈
+[Yy]ou'?re absolutely right
+[Gg]reat question|[Ee]xcellent question|great point
+[Gg]ood catch!
+load[- ]bearing
+[Ss]eams?([ ,.]|$)
+connective tissue
+north star
+gold ?mine|treasure trove
+secret sauce
+honest (take|answer|opinion|behavior)
+(let me|[Ii]('ll| will)) be (straight|honest|direct|blunt|frank|real)
+to be (honest|frank|blunt)
+[Ll]et me be clear
+[Mm]ake no mistake
+unusually (disciplined|clean|thorough|thoughtful|polished|rigorous|careful)
+remarkably [a-z]+
+impressively [a-z]+
+chef'?s kiss
+production.ready|battle.tested
+should now work
+[Ff]ull stop\.|[Pp]eriod\.
+[Ll]et that sink in
+[Hh]ere'?s the (thing|kicker)
+game.chang(er|ing)
+[Bb]ottom line
+[Ii]n (short|essence),|[Ss]imply put
+[Aa]t the end of the day
+boils down to
+[Tt]he upshot
+n't just (a|an|about)
+isn'?t (just|merely|simply)
+not (just|merely|simply) (a|an|about)
+[Tt]hat'?s not .{1,40}(it|that)'?s
+less about .{1,30} than
+[Tt]he real [a-z]+ (is|was)
+worse than an? [a-z]+:
+worth (noting|flagging|mentioning)
+[Nn]otably,|[Ii]mportantly,|[Ii]nterestingly,|[Cc]rucially,
+[Nn]eedless to say
+genuinely|frankly
+honestly[, ]
+essentially|basically|fundamentally
+arguably
+delv(e|ing)
+leverag(e|ed|ing)
+utiliz(e|ed|ing)
+seamless
+(crucial|pivotal|vital) role
+extends beyond
+actionable
+holistic
+myriad|plethora
+testament to
+underscores the
+streamlin(e|ed|ing)
+foster(s|ed|ing)?( |$)
+empower|elevate the
+state.of.the.art|cutting.edge
+best practices
+on the merits
+directionally (right|correct)
+the calculus
+cuts (the other way|against)
+doing a lot of .{0,20}work
+[a-z]+-adjacent|[a-z]+-shaped problem|[a-z]+-flavored
+not a close call
+costs nothing|buys you nothing
+[Ss]ay the word
+[Oo]ne heads.up
+[Ww]ould you like me to
+[Hh]appy to (draft|dig|help) .{0,30}if
